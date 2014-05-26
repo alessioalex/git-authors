@@ -1,0 +1,33 @@
+{
+  "name": "git-authors",
+  "version": "0.1.0",
+  "description": "List all authors that have contributed to a git project in descending order, based on the number of commits.",
+  "main": "index.js",
+  "dependencies": {
+    "debug": "~0.8.1"
+  },
+  "devDependencies": {
+    "proxyquire": "~1.0.0",
+    "should": "~3.3.2",
+    "mocha": "~1.19.0"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/alessioalex/git-authors"
+  },
+  "keywords": [
+    "git",
+    "authors",
+    "stream",
+    "git-authors"
+  ],
+  "author": "Alexandru Vladutu <alexandru.vladutu@gmail.com> (http://careers.stackoverflow.com/alessioalex)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/alessioalex/git-authors/issues"
+  },
+  "homepage": "https://github.com/alessioalex/git-authors"
+}
