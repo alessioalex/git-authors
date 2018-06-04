@@ -1,14 +1,21 @@
 # git-authors
 
-List all the authors that have contributed to a git project in descending order, based on the number of commits.
+Print a list of dictionaries describing all the authors that have contributed to a git project in descending order, based on the number of commits.
+
+The Git working copy must be addressable as a filesystem path e.g. /home/alice/Sites/example-project/.
 
 ## Usage
+
+NodeJS Command-line Example:
+```bash
+REPO=~/Sites/example-project node ./example.js
+```
+
+Javascript Example:
 
 ```js
 gitAuthors(repoPath, [revision], callback);
 ```
-
-Example:
 
 ```js
 var gitAuthors = require('git-authors');
@@ -76,8 +83,13 @@ Sample output:
 }]
 ```
 
-## Tests
+## Install
+```
+npm install
+```
 
+
+## Tests
 ```
 npm test
 ```
